@@ -8,6 +8,20 @@
 # Для решения данной задачи используйте функцию
 # .split()
 
+# a = 'a a a b c a a d c d d'
+# print(a)
+# x = {}
+# for i in a.split():
+#     if i in x:
+#         x[i] += 1
+#         print(f'{i}_{x[i]}', end=' ')
+#     else:
+#         x[i] = 0
+#         print(i, end=' ')
+
+
+
+
 # Задача №27. Общее обсуждение
 # Пользователь вводит текст(строка). Словом считается
 # последовательность непробельных символов идущих
@@ -19,6 +33,20 @@
 # shells on the sea shore,I'm sure that the shells are sea
 # shore shells.
 # Output: 19
+
+
+words ="She sells sea shells on the sea shore The shells that she sells are sea shells I'm sure So if she sells sea shells on the sea shore I'm sure that the shells are sea shore shells"
+#a = len(words.split())
+a = words.lower().split()
+b = len(a)
+print(a)
+print(b)
+d = set()
+for i in a:
+    d.add(i)
+print(d)
+print(len(d))
+
 
 # Задача №29. Решение в группах
 # Ваня и Петя поспорили, кто быстрее решит
@@ -51,5 +79,18 @@
 #  if max_number < n:
 #  n = max_number
 # print(n)
+
+# a = []
+# print("Введите числа: ")
+# while True:
+#     n = int(input())
+#     if n == 0:
+#         break
+#     a.append(n)
+# print(a)
+# print(max(a))
+
+
+
 
 
