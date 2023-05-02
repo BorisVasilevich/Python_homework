@@ -7,7 +7,13 @@
 # Output: 21
 # Задание необходимо решать через рекурсию
 
-
+# def fib(n):
+#     if n == 1 or n == 0:
+#         return 1
+#     return fib(n - 1) + fib(n - 2)
+#
+# a = int(input())
+# print(fib(a))
 
 # Задача №33. Решение в группах
 # Хакер Василий получил доступ к классному журналу и
@@ -17,6 +23,29 @@
 # максимальные – на минимальные.
 # Input: 5 -> 1 3 3 3 4
 # Output: 1 3 3 3 1
+
+# def VasiaNumders(n):
+#     i = 0
+#     s =[]
+#     while i <= n:
+#         a = int(input())
+#         s.append(a)
+#         i += 1
+#     return s
+#
+# res = VasiaNumders(5)
+# print(res)
+#
+# max_num = max(res)
+# min_num = min(res)
+#
+# for i in range(len(res)):
+#     if res[i] == max_num:
+#         res[i] = min_num
+# print(res)
+
+
+
 
 # Задача №35. Решение в группах
 # Напишите функцию, которая принимает одно число и
@@ -39,3 +68,15 @@
 # (даже для ввода и вывода).
 # Input: 2 -> 3 4
 # Output: 4 3
+def Foo(n):
+    a = input('Введите количество элементов: ')
+    if n == 1:
+        return a
+    return Foo(n - 1) + a
+
+print(Foo(5))
+
+
+
+
+
