@@ -1,16 +1,19 @@
-# This is a sample Python script.
+# Выведите таблицу размером
+# n×n, заполненную числами от
+# 1 до 2
+# n
+# 2
+#   по спирали, выходящей из левого верхнего угла и закрученной по часовой стрелке, как показано в примере (здесь
+# =5 n=5):
+# Sample Input:
+# 5
+# Sample Output:
+# 1 2 3 4 5
+# 16 17 18 19 6
+# 15 24 25 20 7
+# 14 23 22 21 8
+# 13 12 11 10 9
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+a = int(input())
+matrix =

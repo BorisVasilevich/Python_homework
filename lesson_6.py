@@ -90,6 +90,48 @@
 # Ввод: Вывод:
 # 300 220 284
 
+# a = int(input('Enter number: '))
+#
+# lsd = []
+# for i in range(a):
+#     sum = 0
+#     for j in range(1, i // 2 + 1):
+#         if i % j == 0:
+#             sum += j
+#     lsd.append([i,sum])
+# print(lsd)
+# for i in range(len(lsd)):
+#     for j in range(i+1, len(lsd)):
+#         if lsd[i][0] == lsd[j][1] and lsd[i][1] == lsd[j][0] and i != j:
+#             print(*lsd[i])
+
+f = 'a aa abC aa ac abc bcd a'
+a = f.lower().split()
+print(a)
+lsd = []
+k = []
+for i in range(len(a)):
+    count = 0
+    for j in range(len(a)):
+        if a[i] == a[j]:
+            count += 1
+#     lsd.append([a[i], count])
+# print(lsd)
+# lsd2 = []
+# #print(lsd)
+# for i in lsd:
+#     if i not in lsd2:
+#         lsd2.append(i)
+# print(*lsd2)
 
 
-
+    print(f'{a[i]}_{count}', end = ' ')
+# b = {}
+# for i in f.lower().split():
+#     if i in b:
+#         b[i] += 1
+#         print(f'{i}_{b[i]}')
+#     else:
+#         b[i] = 1
+#         #print(i)
+# #print(f'{i}_{b[i]}')
